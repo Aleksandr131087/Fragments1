@@ -25,7 +25,8 @@ class FirstFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_first2, container, false)
 
-        val toolbar: Toolbar = view.findViewById(R.id.toolbar)
+
+
         noteInput = view.findViewById(R.id.note_input)
         val addButton: Button = view.findViewById(R.id.add_button)
         recyclerView = view.findViewById(R.id.recycler_view)
